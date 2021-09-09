@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Dash Tab",
+    "version": "1.0.0",
+    "description": "Simple interface for getting headline news and weather with neat photos",
+    "action": {
+        "default_icon": "tab_icon.png"
+    }, 
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+        "permissions": ["geolocation"]
+}
